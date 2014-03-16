@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/MMuelle5/webTechPrj/issues"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "homepage": "https://github.com/MMuelle5/webTechPrj"
 }
