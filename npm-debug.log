@@ -2,256 +2,73 @@
 1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
-1 verbose cli   'http',
-1 verbose cli   'url',
-1 verbose cli   'connect',
-1 verbose cli   'fs',
-1 verbose cli   'path',
-1 verbose cli   '--save' ]
+1 verbose cli   'fs' ]
 2 info using npm@1.3.24
 3 info using node@v0.10.25
 4 warn package.json webtechPrj@0.0.0 No description
 5 warn package.json webtechPrj@0.0.0 No README data
-6 verbose readDependencies using package.json deps
-7 verbose cache add [ 'http', null ]
-8 verbose cache add name=undefined spec="http" args=["http",null]
-9 verbose parsed url { protocol: null,
-9 verbose parsed url   slashes: null,
-9 verbose parsed url   auth: null,
-9 verbose parsed url   host: null,
-9 verbose parsed url   port: null,
-9 verbose parsed url   hostname: null,
-9 verbose parsed url   hash: null,
-9 verbose parsed url   search: null,
-9 verbose parsed url   query: null,
-9 verbose parsed url   pathname: 'http',
-9 verbose parsed url   path: 'http',
-9 verbose parsed url   href: 'http' }
-10 verbose cache add [ 'url', null ]
-11 verbose cache add name=undefined spec="url" args=["url",null]
-12 verbose parsed url { protocol: null,
-12 verbose parsed url   slashes: null,
-12 verbose parsed url   auth: null,
-12 verbose parsed url   host: null,
-12 verbose parsed url   port: null,
-12 verbose parsed url   hostname: null,
-12 verbose parsed url   hash: null,
-12 verbose parsed url   search: null,
-12 verbose parsed url   query: null,
-12 verbose parsed url   pathname: 'url',
-12 verbose parsed url   path: 'url',
-12 verbose parsed url   href: 'url' }
-13 verbose cache add [ 'connect@~2.8.4', null ]
-14 verbose cache add name=undefined spec="connect@~2.8.4" args=["connect@~2.8.4",null]
-15 verbose parsed url { protocol: null,
-15 verbose parsed url   slashes: null,
-15 verbose parsed url   auth: null,
-15 verbose parsed url   host: null,
-15 verbose parsed url   port: null,
-15 verbose parsed url   hostname: null,
-15 verbose parsed url   hash: null,
-15 verbose parsed url   search: null,
-15 verbose parsed url   query: null,
-15 verbose parsed url   pathname: 'connect@~2.8.4',
-15 verbose parsed url   path: 'connect@~2.8.4',
-15 verbose parsed url   href: 'connect@~2.8.4' }
-16 verbose cache add name="connect" spec="~2.8.4" args=["connect","~2.8.4"]
-17 verbose parsed url { protocol: null,
-17 verbose parsed url   slashes: null,
-17 verbose parsed url   auth: null,
-17 verbose parsed url   host: null,
-17 verbose parsed url   port: null,
-17 verbose parsed url   hostname: null,
-17 verbose parsed url   hash: null,
-17 verbose parsed url   search: null,
-17 verbose parsed url   query: null,
-17 verbose parsed url   pathname: '~2.8.4',
-17 verbose parsed url   path: '~2.8.4',
-17 verbose parsed url   href: '~2.8.4' }
-18 verbose addNamed [ 'connect', '~2.8.4' ]
-19 verbose addNamed [ null, '>=2.8.4-0 <2.9.0-0' ]
-20 verbose cache add [ 'fs', null ]
-21 verbose cache add name=undefined spec="fs" args=["fs",null]
-22 verbose parsed url { protocol: null,
-22 verbose parsed url   slashes: null,
-22 verbose parsed url   auth: null,
-22 verbose parsed url   host: null,
-22 verbose parsed url   port: null,
-22 verbose parsed url   hostname: null,
-22 verbose parsed url   hash: null,
-22 verbose parsed url   search: null,
-22 verbose parsed url   query: null,
-22 verbose parsed url   pathname: 'fs',
-22 verbose parsed url   path: 'fs',
-22 verbose parsed url   href: 'fs' }
-23 verbose cache add [ 'path', null ]
-24 verbose cache add name=undefined spec="path" args=["path",null]
-25 verbose parsed url { protocol: null,
-25 verbose parsed url   slashes: null,
-25 verbose parsed url   auth: null,
-25 verbose parsed url   host: null,
-25 verbose parsed url   port: null,
-25 verbose parsed url   hostname: null,
-25 verbose parsed url   hash: null,
-25 verbose parsed url   search: null,
-25 verbose parsed url   query: null,
-25 verbose parsed url   pathname: 'path',
-25 verbose parsed url   path: 'path',
-25 verbose parsed url   href: 'path' }
-26 silly lockFile 77b5f8e3-http http
-27 verbose lock http C:\Users\MARIUS\AppData\Roaming\npm-cache\77b5f8e3-http.lock
-28 silly lockFile 81736358-url url
-29 verbose lock url C:\Users\MARIUS\AppData\Roaming\npm-cache\81736358-url.lock
-30 silly lockFile 8fa706a3-connect-2-8-4 connect@~2.8.4
-31 verbose lock connect@~2.8.4 C:\Users\MARIUS\AppData\Roaming\npm-cache\8fa706a3-connect-2-8-4.lock
-32 silly lockFile 3f4bb586-fs fs
-33 verbose lock fs C:\Users\MARIUS\AppData\Roaming\npm-cache\3f4bb586-fs.lock
-34 silly lockFile 3150ecd5-path path
-35 verbose lock path C:\Users\MARIUS\AppData\Roaming\npm-cache\3150ecd5-path.lock
-36 silly lockFile 77b5f8e3-http http
-37 silly lockFile 77b5f8e3-http http
-38 silly addNameRange { name: 'connect', range: '>=2.8.4-0 <2.9.0-0', hasData: false }
-39 silly lockFile 81736358-url url
-40 silly lockFile 81736358-url url
-41 verbose addNamed [ 'http', '' ]
-42 verbose addNamed [ null, '*' ]
-43 silly lockFile c1086ff9-http http@
-44 verbose lock http@ C:\Users\MARIUS\AppData\Roaming\npm-cache\c1086ff9-http.lock
-45 silly lockFile 3f4bb586-fs fs
-46 silly lockFile 3f4bb586-fs fs
-47 silly lockFile 3150ecd5-path path
-48 silly lockFile 3150ecd5-path path
-49 verbose addNamed [ 'url', '' ]
-50 verbose addNamed [ null, '*' ]
-51 silly lockFile b781997a-url url@
-52 verbose lock url@ C:\Users\MARIUS\AppData\Roaming\npm-cache\b781997a-url.lock
-53 verbose url raw connect
-54 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
-55 verbose url resolved https://registry.npmjs.org/connect
-56 info trying registry request attempt 1 at 13:25:17
-57 http GET https://registry.npmjs.org/connect
-58 verbose addNamed [ 'path', '' ]
-59 verbose addNamed [ null, '*' ]
-60 silly lockFile 9741fa74-path path@
-61 verbose lock path@ C:\Users\MARIUS\AppData\Roaming\npm-cache\9741fa74-path.lock
-62 verbose addNamed [ 'fs', '' ]
-63 verbose addNamed [ null, '*' ]
-64 silly lockFile a107b96b-fs fs@
-65 verbose lock fs@ C:\Users\MARIUS\AppData\Roaming\npm-cache\a107b96b-fs.lock
-66 silly addNameRange { name: 'url', range: '*', hasData: false }
-67 silly addNameRange { name: 'http', range: '*', hasData: false }
-68 verbose url raw http
-69 verbose url resolving [ 'https://registry.npmjs.org/', './http' ]
-70 verbose url resolved https://registry.npmjs.org/http
-71 info trying registry request attempt 1 at 13:25:17
-72 http GET https://registry.npmjs.org/http
-73 silly addNameRange { name: 'fs', range: '*', hasData: false }
-74 verbose url raw url
-75 verbose url resolving [ 'https://registry.npmjs.org/', './url' ]
-76 verbose url resolved https://registry.npmjs.org/url
-77 info trying registry request attempt 1 at 13:25:17
-78 http GET https://registry.npmjs.org/url
-79 silly addNameRange { name: 'path', range: '*', hasData: false }
-80 verbose url raw fs
-81 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
-82 verbose url resolved https://registry.npmjs.org/fs
-83 info trying registry request attempt 1 at 13:25:17
-84 http GET https://registry.npmjs.org/fs
-85 verbose url raw path
-86 verbose url resolving [ 'https://registry.npmjs.org/', './path' ]
-87 verbose url resolved https://registry.npmjs.org/path
-88 info trying registry request attempt 1 at 13:25:17
-89 http GET https://registry.npmjs.org/path
-90 http 200 https://registry.npmjs.org/url
-91 silly registry.get cb [ 200,
-91 silly registry.get   { date: 'Sun, 16 Mar 2014 12:25:21 GMT',
-91 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
-91 silly registry.get     etag: '"6O2H8RZXOZVUQ6836GL5ZCTX2"',
-91 silly registry.get     'content-type': 'application/json',
-91 silly registry.get     via: '1.1 varnish',
-91 silly registry.get     'cache-control': 'max-age=1',
-91 silly registry.get     'content-length': '2096',
-91 silly registry.get     'accept-ranges': 'bytes',
-91 silly registry.get     age: '9236',
-91 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-fra1231-FRA',
-91 silly registry.get     'x-cache': 'HIT, HIT',
-91 silly registry.get     'x-cache-hits': '10727, 1',
-91 silly registry.get     'x-timer': 'S1394950759.473625183,VS0,VS4,VE4,VE21962146',
-91 silly registry.get     vary: 'Accept',
-91 silly registry.get     'keep-alive': 'timeout=10, max=50',
-91 silly registry.get     connection: 'Keep-Alive' } ]
-92 silly addNameRange number 2 { name: 'url', range: '*', hasData: true }
-93 silly addNameRange versions [ 'url', [ '0.4.9', '0.7.9' ] ]
-94 verbose addNamed [ 'url', '0.7.9' ]
-95 verbose addNamed [ '0.7.9', '0.7.9' ]
-96 silly lockFile 8679e697-url-0-7-9 url@0.7.9
-97 verbose lock url@0.7.9 C:\Users\MARIUS\AppData\Roaming\npm-cache\8679e697-url-0-7-9.lock
-98 silly lockFile d1f124e2-stry-npmjs-org-url-url-0-7-9-tgz https://registry.npmjs.org/url/-/url-0.7.9.tgz
-99 verbose lock https://registry.npmjs.org/url/-/url-0.7.9.tgz C:\Users\MARIUS\AppData\Roaming\npm-cache\d1f124e2-stry-npmjs-org-url-url-0-7-9-tgz.lock
-100 verbose addRemoteTarball [ 'https://registry.npmjs.org/url/-/url-0.7.9.tgz',
-100 verbose addRemoteTarball   '1959b1a8b361fc017b59513a7c7fa9827f5e4ed0' ]
-101 info retry fetch attempt 1 at 13:25:18
-102 verbose fetch to= C:\Users\MARIUS\AppData\Local\Temp\npm-6832-ao_k_Ysv\1394972718198-0.7802108081523329\tmp.tgz
-103 http GET https://registry.npmjs.org/url/-/url-0.7.9.tgz
-104 http 200 https://registry.npmjs.org/path
-105 silly registry.get cb [ 200,
-105 silly registry.get   { date: 'Sun, 16 Mar 2014 12:25:21 GMT',
-105 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
-105 silly registry.get     etag: '"4WX21INIKUOMBWM1BWTSABN1U"',
-105 silly registry.get     'content-type': 'application/json',
-105 silly registry.get     via: '1.1 varnish',
-105 silly registry.get     'cache-control': 'max-age=1',
-105 silly registry.get     'content-length': '1393',
-105 silly registry.get     'accept-ranges': 'bytes',
-105 silly registry.get     age: '5238',
-105 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-fra1230-FRA',
-105 silly registry.get     'x-cache': 'MISS, MISS',
-105 silly registry.get     'x-cache-hits': '0, 0',
-105 silly registry.get     'x-timer': 'S1394953072.788828850,VS0,VS-761,VE-657,VE19648903',
-105 silly registry.get     vary: 'Accept',
-105 silly registry.get     'keep-alive': 'timeout=10, max=50',
-105 silly registry.get     connection: 'Keep-Alive' } ]
-106 silly addNameRange number 2 { name: 'path', range: '*', hasData: true }
-107 silly addNameRange versions [ 'path', [ '0.4.9' ] ]
-108 verbose addNamed [ 'path', '0.4.9' ]
-109 verbose addNamed [ '0.4.9', '0.4.9' ]
-110 silly lockFile f9561765-path-0-4-9 path@0.4.9
-111 verbose lock path@0.4.9 C:\Users\MARIUS\AppData\Roaming\npm-cache\f9561765-path-0-4-9.lock
-112 silly lockFile badd1f40-ry-npmjs-org-path-path-0-4-9-tgz https://registry.npmjs.org/path/-/path-0.4.9.tgz
-113 verbose lock https://registry.npmjs.org/path/-/path-0.4.9.tgz C:\Users\MARIUS\AppData\Roaming\npm-cache\badd1f40-ry-npmjs-org-path-path-0-4-9-tgz.lock
-114 verbose addRemoteTarball [ 'https://registry.npmjs.org/path/-/path-0.4.9.tgz',
-114 verbose addRemoteTarball   '380c68d01273e43f9368d7ad50fee5e3e8d477f0' ]
-115 info retry fetch attempt 1 at 13:25:18
-116 verbose fetch to= C:\Users\MARIUS\AppData\Local\Temp\npm-6832-ao_k_Ysv\1394972718246-0.008140953490510583\tmp.tgz
-117 http GET https://registry.npmjs.org/path/-/path-0.4.9.tgz
-118 http 404 https://registry.npmjs.org/fs
-119 silly registry.get cb [ 404,
-119 silly registry.get   { date: 'Sun, 16 Mar 2014 12:25:21 GMT',
-119 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
-119 silly registry.get     'content-type': 'application/json',
-119 silly registry.get     via: '1.1 varnish',
-119 silly registry.get     'cache-control': 'max-age=0',
-119 silly registry.get     'content-length': '52',
-119 silly registry.get     'accept-ranges': 'bytes',
-119 silly registry.get     age: '0',
-119 silly registry.get     'x-served-by': 'cache-v42-ASH, cache-fra1224-FRA',
-119 silly registry.get     'x-cache': 'MISS, MISS',
-119 silly registry.get     'x-cache-hits': '0, 0',
-119 silly registry.get     'x-timer': 'S1394972721.516500235,VS0,VS-775,VE-677,VE196',
-119 silly registry.get     'keep-alive': 'timeout=10, max=50',
-119 silly registry.get     connection: 'Keep-Alive' } ]
-120 silly lockFile a107b96b-fs fs@
-121 silly lockFile a107b96b-fs fs@
-122 error 404 'fs' is not in the npm registry.
-122 error 404 You should bug the author to publish it
-122 error 404 It was specified as a dependency of 'webtechPrj'
-122 error 404
-122 error 404 Note that you can also install from a
-122 error 404 tarball, folder, or http url, or git url.
-123 error System Windows_NT 6.1.7601
-124 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "http" "url" "connect" "fs" "path" "--save"
-125 error cwd c:\Users\MARIUS\Documents\schule\sem8\webtech\08_Frontend_One_Page\83_Projekt\project
-126 error node -v v0.10.25
-127 error npm -v 1.3.24
-128 error code E404
-129 verbose exit [ 1, true ]
+6 warn package.json http@0.0.0 http is also the name of a node core module.
+7 warn package.json http@0.0.0 No description
+8 warn package.json http@0.0.0 No repository field.
+9 warn package.json url@0.7.9 url is also the name of a node core module.
+10 warn package.json path@0.4.9 path is also the name of a node core module.
+11 verbose readDependencies using package.json deps
+12 verbose cache add [ 'fs', null ]
+13 verbose cache add name=undefined spec="fs" args=["fs",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'fs',
+14 verbose parsed url   path: 'fs',
+14 verbose parsed url   href: 'fs' }
+15 silly lockFile 3f4bb586-fs fs
+16 verbose lock fs C:\Users\MARIUS\AppData\Roaming\npm-cache\3f4bb586-fs.lock
+17 silly lockFile 3f4bb586-fs fs
+18 silly lockFile 3f4bb586-fs fs
+19 verbose addNamed [ 'fs', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile a107b96b-fs fs@
+22 verbose lock fs@ C:\Users\MARIUS\AppData\Roaming\npm-cache\a107b96b-fs.lock
+23 silly addNameRange { name: 'fs', range: '*', hasData: false }
+24 verbose url raw fs
+25 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+26 verbose url resolved https://registry.npmjs.org/fs
+27 info trying registry request attempt 1 at 21:56:14
+28 http GET https://registry.npmjs.org/fs
+29 http 404 https://registry.npmjs.org/fs
+30 silly registry.get cb [ 404,
+30 silly registry.get   { date: 'Mon, 21 Apr 2014 19:56:18 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '52',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-v43-ASH, cache-fra1222-FRA',
+30 silly registry.get     'x-cache': 'MISS, MISS',
+30 silly registry.get     'x-cache-hits': '0, 0',
+30 silly registry.get     'x-timer': 'S1398110178.222530603,VS0,VS46,VE56,VE108',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly lockFile a107b96b-fs fs@
+32 silly lockFile a107b96b-fs fs@
+33 error 404 'fs' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'webtechPrj'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Windows_NT 6.1.7601
+35 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "fs"
+36 error cwd c:\Users\MARIUS\Documents\schule\sem8\webtech\08_Frontend_One_Page\83_Projekt\project
+37 error node -v v0.10.25
+38 error npm -v 1.3.24
+39 error code E404
+40 verbose exit [ 1, true ]
