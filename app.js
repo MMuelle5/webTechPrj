@@ -7,6 +7,9 @@ var express = require('express'),
 
 var app = express();
 
+app.set('port', process.env.PORT || 5000);
+app.use(express.json());
+app.use(express.urlencoded());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(responder);
 app.use(logger);
@@ -125,6 +128,6 @@ function allowCrossDomain(request, response, next) {
   next();
 }
 
-server.listen(5000, function() {
-  console.log("Listening on 5000");
+server.listen(app.get('port'), function() {
+  console.log("Listening on "+app.get('port'));
 });

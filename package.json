@@ -1,13 +1,15 @@
 {
-  "name": "webtechPrj",
+  "name": "webtechPrjv2",
   "version": "0.0.0",
   "main": "app.js",
   "dependencies": {
     "http": "0.0.0",
     "path": "~0.4.9",
     "node-fs": "~0.1.7",
-    "express": "~4.0.0",
-    "url": "~0.7.9"
+    "express": "~3.4.8",
+    "url": "~0.7.9",
+    "body-parser": "~1.0.2",
+    "connect": "~2.14.4"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MMuelle5/webTechPrj"
+    "url": "https://github.com/MMuelle5/webTechPrjv2"
   },
   "author": "Marius",
   "license": "ISC",
@@ -24,7 +26,7 @@
   },
   "engines": {
     "node": "0.10.x",
-    "npm":  "1.3.x"
+    "npm": "1.3.x"
   },
-  "homepage": "https://github.com/MMuelle5/webTechPrj"
+  "homepage": "https://github.com/MMuelle5/webTechPrjv2"
 }
