@@ -14,8 +14,6 @@ Backbone.js: Für den clientseitige Bereich wird Backbone.js in Verbindung mit U
 REST API: 
  -Mittels /tasks als GET-Methode kann die Liste geladen werden.
  -Mittels /tasks als POST-Methode wird ein neuer Task angelegt.
- 
  -Mittels /tasks/:id als PUT-Methode wird ein bestehender Task bearbeitet.
- 
  -Mittels /tasks/:id als DELETE-Methode wird ein bestehender Task gelöscht.
  
