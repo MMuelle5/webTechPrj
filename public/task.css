@@ -1,0 +1,18 @@
+#allTasks div.notStarted {width: 250px; min-height: 50px; border-radius: 10px; padding-bottom: 10px; margin: 10px; text-align: center;border-color: black;background: red}
+#allTasks div.working {width: 250px; min-height: 50px; border-radius: 10px; padding-bottom: 10px; margin: 10px; text-align: center;border-color: black;background: yellow}
+#allTasks div.finished {width: 250px; min-height: 50px; border-radius: 10px; padding-bottom: 10px; margin: 10px; text-align: center;border-color: black;background: green}
+
+#allTasks div.editing .edit {
+    display: block;
+    width: 200px;
+    padding: 13px 15px 14px 20px;
+    margin: 0;
+}
+
+#allTasks div.editing .view {
+    display: none;
+}
+
+#allTasks div .edit {
+    display: none;
+}

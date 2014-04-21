@@ -1,12 +1,13 @@
 "use strict";
  
 // web.js
-var http  = require('http')
-  , url   = require('url')
-  , connect = require('connect')
-  , fs = require('fs')
-  , path = require('path');
 
+var express = require('express');
+var http = require('http');
+var path = require('path');
+var WebSocketServer = require('ws').Server;
+
+var app = express();
 
 var app = connect();
 app.use(logger);

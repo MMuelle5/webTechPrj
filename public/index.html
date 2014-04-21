@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<script src="js/jquery-2.1.0.js"></script>
+		<script src="js/underscore.js"></script>
+		<script src="js/backbone.js"></script>
+		<script src="js/socket.io.js"></script>
+		
+    	<link rel="stylesheet" href="task.css"/>
+    	
+	</head>
+	<body>
+		
+		<div id="app">
+			<table style="height: 100%; text-align: center" border="1">
+				<tr>
+					<th style="width: 400px; height: 20px">TODO</th>
+					<th style="width: 400px">In Progress</th>
+					<th style="width: 400px">Done</th>
+				</tr>
+				<tr id="allTasks">
+					<td class="notStarted" id="notStarted"></td>
+					<td class="working" id="working"></td>
+					<td class="finished" id="finished"></td>
+				</tr>
+			</table>
+			
+		    <input id="newTask" type="text" placeholder="Next Task...">
+		    <input id="add" type="button" value="Add">
+		</div>
+		
+		<script type="text/template" id="item-template">
+			<table>
+				<tr>
+					<td colspan="2" align="center">
+					    <div class="view title"><b><%= title %></b></div>
+					    <input class="edit" type="text" />
+					</td>
+					<td><input type="image" class="deleteTask" src="img/cancel.png"/></td>
+				</tr><tr>
+					<td colspan="2">
+				    	<hline/>
+				   </td>
+				</tr><tr>
+					<td colspan="2">
+					    <div class="view desc"><%= description %></b></div>
+					</td>
+				</tr><tr>
+			    	<td>Verantwortlicher:</td>
+			    	<td><div class="view resp"><%=  responsible %></div></td>
+			    </tr><tr>
+			    	<td>Aufwand:</td>
+			    	<td>
+					    <select name="cost" size="0" id="cost">
+					    	<option value="1" <%= cost === '1' ? 'selected="selected"' : '' %>>1</option>
+					    	<option value="2" <%= cost === '2' ? 'selected="selected"' : '' %>>2</option>
+					    	<option value="3" <%= cost === '3' ? 'selected="selected"' : '' %>>3</option>
+					    	<option value="5" <%= cost === '5' ? 'selected="selected"' : '' %>>5</option>
+					    	<option value="8" <%= cost === '8' ? 'selected="selected"' : '' %>>8</option>
+					    </select>
+					</td>
+			    </tr><tr>
+			    	
+			    	<td>Status:</td>
+			    	<td>
+					    <select name="status" size="0" id="state">
+					    	<option value="notStarted" <%= status === 'notStarted' ? 'selected="selected"' : '' %>>TODO</option>
+					    	<option value="working"  <%= status === 'working' ? 'selected="selected"' : '' %>>In Progress</option>
+					    	<option value="finished"  <%= status === 'finished' ? 'selected="selected"' : '' %>>Done</option>
+					    </select>
+					</td>
+				</tr></table>
+		</script>
+		<script src="tasklist.js"></script>
+	</body>
+</html>
