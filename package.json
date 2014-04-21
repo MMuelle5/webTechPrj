@@ -1,12 +1,14 @@
 {
   "name": "webtechPrj",
   "version": "0.0.0",
-  "description": "",
   "main": "web.js",
   "dependencies": {
-    "connect": "~2.8.4",
-    "ws": "~0.4.31",
     "express": "~3.4.8"
+    "http": "~0.0.0",
+    "connect": "~2.14.4",
+    "node-fs": "~0.1.7",
+    "url": "~0.7.9",
+    "path": "~0.4.9"
   },
   "devDependencies": {},
   "scripts": {
